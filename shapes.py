@@ -1,8 +1,9 @@
 class Shape:
     name = "Geometric Shapes" #Class variable
     
-    def print_name(self):
-        print(self.name)
+    @classmethod
+    def print_name(cls):
+        print(cls.name)
 
     def get_area(self):
         return None
@@ -44,3 +45,7 @@ class Circle(Shape):
 rect = Rectangle(5,3)
 area_of_rectangle = rect.get_area()
 print(area_of_rectangle)
+
+tri = Triangle(12,15)
+area_of_triangle = tri.get_area()
+print(area_of_triangle)
