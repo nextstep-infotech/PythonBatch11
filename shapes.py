@@ -49,3 +49,7 @@ print(area_of_rectangle)
 tri = Triangle(12,15)
 area_of_triangle = tri.get_area()
 print(area_of_triangle)
+
+cir = Circle(7)
+area_of_circle = cir.get_area()
+print(area_of_circle)
