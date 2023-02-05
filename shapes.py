@@ -53,3 +53,5 @@ print(area_of_triangle)
 cir = Circle(7)
 area_of_circle = cir.get_area()
 print(area_of_circle)
+
+print("This is a sample project")
